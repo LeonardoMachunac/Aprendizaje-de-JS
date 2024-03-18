@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Slider Video</title>
+</head>
+<body>
+    <section>
+        <div class="bannerVideo" id="slideShow">
+            <video src="./img/video1.mp4" autoplay muted loop class="active"></video>
+            <video src="./img/video2.mp4" autoplay muted loop ></video>
+            <video src="./img/video3.mp4" autoplay muted loop ></video>
+            <video src="./img/video4.mp4" autoplay muted loop ></video>
+            </div>
+            <div class="container">
+                <header id="navbar">
+                    <a href="#" class="logo">World</a>
+                    <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Destination</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <span class="menuIcon" onclick="toggleMenu()"></span>
+                </header>
+                <div class="content">
+                    <div class="bannerText" id="slideShowText">
+                        <div class="active">
+                            <h2>Tokio</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque nobis, quas blanditiis voluptatibus tempora molestias magni, nemo similique quaerat repellat doloremque, odio accusantium ullam deleniti repudiandae quisquam fugit officiis magnam.</p>
+                        </div>
+                        <div>
+                            <h2>Paris</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident explicabo optio voluptatem quam impedit enim magnam blanditiis soluta cumque rem dolore deleniti totam eligendi vel earum, quaerat nihil illum ex.</p>
+                        </div>
+                        <div>
+                            <h2>Egypt</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident explicabo optio voluptatem quam impedit enim magnam blanditiis soluta cumque rem dolore deleniti totam eligendi vel earum, quaerat nihil illum ex.</p>
+                        </div>
+                        <div>
+                            <h2>Maldives</h2>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident explicabo optio voluptatem quam impedit enim magnam blanditiis soluta cumque rem dolore deleniti totam eligendi vel earum, quaerat nihil illum ex.</p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="controls">
+                    <li onclick="prevSlide();prevSlideText();"><img src="./img/left.png"></li>
+                    <li onclick="nextSlide();nextSlideText();"><img src="./img/right.png"></li>   <!--representa a java scriopt-->
+                </ul>
+            </div>
+    
+    
+        </section>
+    <script src="main.js"></script>
+</body>
+</html>
